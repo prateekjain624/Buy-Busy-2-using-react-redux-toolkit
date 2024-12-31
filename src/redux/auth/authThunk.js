@@ -7,11 +7,11 @@ import {
   updateProfile,
 } from "firebase/auth";
 
-import { currentUser } from "./AuthSlice";
+import { currentUser } from "./authSlice";
 
 import { auth } from "../../Config/firebaseConfig";
 
-export const listenAuthChange = createAsyncThunk(
+export default listenAuthChange = createAsyncThunk(
   "auth/listenAuthChange",
   async (_, { dispatch }) => {
     onAuthStateChanged(auth, (user) => {
