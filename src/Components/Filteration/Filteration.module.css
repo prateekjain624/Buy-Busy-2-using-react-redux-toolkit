@@ -1,0 +1,39 @@
+.filter h2 {
+  color: #224957;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+input[type="range"] {
+  appearance: auto;
+  cursor: default;
+  color: light-dark(rgb(16, 16, 16), rgb(255, 255, 255));
+  padding: initial;
+  border: initial;
+  margin: 2px;
+}
+
+.filter .priceRange {
+  background-color: #7064e5;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 6px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  width: 90%;
+}
+
+.categoryContainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+input[type="checkbox"] {
+  border-radius: 0.25rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  width: 1rem;
+}

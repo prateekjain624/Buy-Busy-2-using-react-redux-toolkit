@@ -1,0 +1,59 @@
+.ordersContainer {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.noOrders {
+  text-align: center;
+  font-size: 1.2em;
+  color: #777;
+}
+
+.ordersTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orderDateRow td {
+  background-color: #f9f9f9;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ordersTable th,
+.ordersTable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.ordersTable th {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+
+.ordersTable td {
+  background-color: #fff;
+}
+
+.totalLabel {
+  font-weight: bold;
+  text-align: right;
+}
+
+.totalAmount {
+  font-weight: bold;
+  color: #4caf50;
+  text-align: center;
+}
