@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { authReducer } from "./redux/Auth/AuthSlice";
+import { authReducer } from "./redux/auth/authSlice/authReducer";
 import { productReducer } from "./redux/product/productSlice";
 import { listenAuthChange } from "./redux/Auth/authThunk";
 import { orderReducer } from "./redux/order/orderSlice";
