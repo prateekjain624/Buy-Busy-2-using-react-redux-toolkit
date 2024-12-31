@@ -9,7 +9,7 @@ import Signup from "./Pages/Signup/Signup";
 import Home from "./Pages/Home/Home";
 import Signin from "./Pages/Signin/Signin";
 import { useSelector } from "react-redux";
-import { authSelector } from "./redux/Auth/AuthSlice";
+import { authSelector } from "./redux/auth/authSlice";
 import CartComponent from "./Pages/Cart/Cart";
 import OrdersPage from "./Pages/Order/Order";
 const PrivateRoute = ({ children }) => {
