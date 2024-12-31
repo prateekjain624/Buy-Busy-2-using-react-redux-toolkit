@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import styles from "./Signin.module.css";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { signinUser } from "../../redux/Auth/authThunk";
-import { authSelector } from "../../redux/Auth/AuthSlice";
+import { signinUser } from "../../redux/auth/authThunk";
+import { authSelector } from "../../redux/auth/authSlice";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 

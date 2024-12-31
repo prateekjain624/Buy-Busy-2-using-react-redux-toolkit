@@ -8,7 +8,7 @@ import {
   removeItemThunk,
 } from "../../redux/Cart/cartThunk";
 import { getCartThunk } from "../../redux/Cart/cartThunk";
-import { authSelector } from "../../redux/Auth/AuthSlice";
+import { authSelector } from "../../redux/auth/authSlice";
 import { addOrderThunk } from "../../redux/order/orderThunk";
 
 const CartComponent = () => {

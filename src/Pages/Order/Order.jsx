@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { orderSelector } from "../../redux/order/orderSlice";
 import { getOrderThunk } from "../../redux/order/orderThunk";
 import styles from "../Order/Order.module.css";
-import { authSelector } from "../../redux/Auth/AuthSlice";
+import { authSelector } from "../../redux/auth/authSlice";
 
 const OrdersPage = () => {
   const { orders } = useSelector(orderSelector);

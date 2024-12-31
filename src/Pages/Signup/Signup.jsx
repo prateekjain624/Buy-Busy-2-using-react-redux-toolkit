@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import styles from "./Signup.module.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { authSelector } from "../../redux/Auth/AuthSlice";
-import { signUpUser } from "../../redux/Auth/authThunk";
+import { authSelector } from "../../redux/auth/authSlice";
+import { signUpUser } from "../../redux/auth/authThunk";
 import toast from "react-hot-toast";
 const Signup = () => {
   const [name, setName] = useState("");
