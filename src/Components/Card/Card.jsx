@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../Card/Card.module.css";
 import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { authSelector } from "../../redux/Auth/AuthSlice";
+import { authSelector } from "../../redux/auth/authSlice";
 import { addToCartThunk } from "../../redux/Cart/cartThunk";
 
 // THIS IS THE CARD FUNCTION

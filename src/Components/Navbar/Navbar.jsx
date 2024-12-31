@@ -8,8 +8,8 @@ import signout from "../../assets/images/logout.png";
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { authSelector } from "../../redux/Auth/AuthSlice";
-import { logoutUser } from "../../redux/Auth/authThunk";
+import { authSelector } from "../../redux/auth/authSlice";
+import { logoutUser } from "../../redux/auth/authThunk";
 import toast from "react-hot-toast";
 
 // navbar function starts from here
